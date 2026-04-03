@@ -1,0 +1,18 @@
+0 verbose cli /opt/homebrew/Cellar/node@22/22.22.2/bin/node /opt/homebrew/Cellar/node@22/22.22.2/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.9.7
+2 info using node@v22.22.2
+3 silly config load:file:/opt/homebrew/Cellar/node@22/22.22.2/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/kurt/git/clido/docs/.npmrc
+5 silly config load:file:/Users/kurt/.npmrc
+6 silly config load:file:/Users/kurt/.npm-global/etc/npmrc
+7 verbose title npm exec astro build
+8 verbose argv "exec" "--" "astro" "build"
+9 verbose logfile logs-max:10 dir:/Users/kurt/git/clido/docs/.npm-cache/_logs/2026-04-03T12_04_26_846Z-
+10 verbose logfile /Users/kurt/git/clido/docs/.npm-cache/_logs/2026-04-03T12_04_26_846Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /Users/kurt/git/clido/docs
+13 verbose os Darwin 25.3.0
+14 verbose node v22.22.2
+15 verbose npm  v10.9.7
+16 verbose exit 0
+17 info ok

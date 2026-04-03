@@ -1,0 +1,32 @@
+---
+title: cli;do Documentation
+description: Open-source AI coding agent for the terminal
+template: splash
+hero:
+  tagline: Open-source AI coding agent. 16 providers, 23 tools, YAML workflows, single Rust binary.
+  actions:
+    - text: Get Started
+      link: /guide/introduction/
+      icon: right-arrow
+    - text: View on GitHub
+      link: https://github.com/clido-ai/clido-cli
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="16 LLM Providers" icon="rocket">
+    Anthropic, OpenAI, Gemini, DeepSeek, Mistral, xAI, Groq, Ollama, and more. Switch with a single flag.
+  </Card>
+  <Card title="23 Built-in Tools" icon="setting">
+    File editing, bash, grep, glob, semantic search, web fetch, MCP — everything the agent needs.
+  </Card>
+  <Card title="YAML Workflows" icon="document">
+    Declarative multi-step automation with AI-guided creation. Define once, run anywhere.
+  </Card>
+  <Card title="Single Binary" icon="laptop">
+    No runtime, no package manager. One curl and you're running.
+  </Card>
+</CardGrid>
