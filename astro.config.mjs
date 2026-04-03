@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
 	site: 'https://clido.ai',
+	base: '/docs',
 	output: 'static',
 	integrations: [
 		starlight({
@@ -26,36 +27,36 @@ export default defineConfig({
 				{
 					label: 'Getting Started',
 					items: [
-						{ label: 'Introduction', slug: 'docs/guide/introduction' },
-						{ label: 'Installation', slug: 'docs/guide/installation' },
-						{ label: 'First Run', slug: 'docs/guide/first-run' },
-						{ label: 'Quick Start', slug: 'docs/guide/quick-start' },
+						{ label: 'Introduction', slug: 'guide/introduction' },
+						{ label: 'Installation', slug: 'guide/installation' },
+						{ label: 'First Run', slug: 'guide/first-run' },
+						{ label: 'Quick Start', slug: 'guide/quick-start' },
 					],
 				},
 				{
 					label: 'Guide',
 					items: [
-						{ label: 'TUI', slug: 'docs/guide/tui' },
-						{ label: 'Configuration', slug: 'docs/guide/configuration' },
-						{ label: 'Providers', slug: 'docs/guide/providers' },
-						{ label: 'Sessions', slug: 'docs/guide/sessions' },
-						{ label: 'Workflows', slug: 'docs/guide/workflows' },
-						{ label: 'Planner', slug: 'docs/guide/planner' },
-						{ label: 'Memory', slug: 'docs/guide/memory' },
-						{ label: 'Semantic Search', slug: 'docs/guide/index-search' },
-						{ label: 'MCP Servers', slug: 'docs/guide/mcp' },
-						{ label: 'Project Rules', slug: 'docs/guide/project-rules' },
-						{ label: 'Running Prompts', slug: 'docs/guide/running-prompts' },
-						{ label: 'Audit Log', slug: 'docs/guide/audit' },
+						{ label: 'TUI', slug: 'guide/tui' },
+						{ label: 'Configuration', slug: 'guide/configuration' },
+						{ label: 'Providers', slug: 'guide/providers' },
+						{ label: 'Sessions', slug: 'guide/sessions' },
+						{ label: 'Workflows', slug: 'guide/workflows' },
+						{ label: 'Planner', slug: 'guide/planner' },
+						{ label: 'Memory', slug: 'guide/memory' },
+						{ label: 'Semantic Search', slug: 'guide/index-search' },
+						{ label: 'MCP Servers', slug: 'guide/mcp' },
+						{ label: 'Project Rules', slug: 'guide/project-rules' },
+						{ label: 'Running Prompts', slug: 'guide/running-prompts' },
+						{ label: 'Audit Log', slug: 'guide/audit' },
 					],
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'docs/reference' },
+					autogenerate: { directory: 'reference' },
 				},
 				{
 					label: 'Developer',
-					autogenerate: { directory: 'docs/developer' },
+					autogenerate: { directory: 'developer' },
 				},
 			],
 		}),
