@@ -32,15 +32,15 @@ default_profile = "default"
 
 [profile.default]
 provider    = "anthropic"
-model       = "claude-3-5-sonnet-20241022"
+model       = "claude-sonnet-4-5"
 # Store the key in an environment variable (recommended)
 api_key_env = "ANTHROPIC_API_KEY"
-# Or store it directly (less secure)
-# api_key   = "sk-ant-..."
+# Keys are stored in the credentials file by the setup wizard.
+# You can also set api_key directly (legacy, not recommended).
 
 [profile.fast]
 provider    = "anthropic"
-model       = "claude-3-haiku-20240307"
+model       = "claude-haiku-4-5"
 api_key_env = "ANTHROPIC_API_KEY"
 
 [profile.openrouter]
@@ -151,12 +151,12 @@ default_profile = "default"
 
 [profile.default]
 provider    = "anthropic"
-model       = "claude-3-5-sonnet-20241022"
+model       = "claude-sonnet-4-5"
 api_key_env = "ANTHROPIC_API_KEY"
 
 [profile.cheap]
 provider    = "anthropic"
-model       = "claude-3-haiku-20240307"
+model       = "claude-haiku-4-5"
 api_key_env = "ANTHROPIC_API_KEY"
 ```
 
@@ -177,7 +177,7 @@ default_profile = "default"
 
 [profile.default]
 provider = "anthropic"
-model    = "claude-3-5-sonnet-20241022"
+model    = "claude-sonnet-4-5"
 api_key_env = "ANTHROPIC_API_KEY"
 
 [agent]
@@ -188,5 +188,5 @@ disallowed = []
 ```
 
 ::: tip Project config in source control
-Project `.clido/config.toml` files are safe to commit as long as they do not contain `api_key` directly. Use `api_key_env` to reference an environment variable instead.
+Project `.clido/config.toml` files are safe to commit — API keys are stored in the separate `credentials` file, not in config.toml. If you do use the legacy `api_key` field, use `api_key_env` to reference an environment variable instead.
 :::

@@ -135,7 +135,7 @@ clido config show
 Update a key in the global config file.
 
 ```bash
-clido config set model claude-3-haiku-20240307
+clido config set model claude-haiku-4-5
 clido config set provider openrouter
 clido config set api-key sk-ant-...
 ```

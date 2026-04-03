@@ -40,7 +40,7 @@ The default and recommended option. Uses the Claude model family directly.
 ? Select a provider: Anthropic (Claude)
 ? Enter your ANTHROPIC_API_KEY (or set env var ANTHROPIC_API_KEY):
   sk-ant-api03-...
-? Default model: (claude-3-5-sonnet-20241022)
+? Default model: (claude-sonnet-4-5)
 ```
 
 The key is stored in your config file. To avoid storing it in plain text, press Enter to skip and set the `ANTHROPIC_API_KEY` environment variable in your shell profile instead.
@@ -106,7 +106,7 @@ default_profile = "default"
 
 [profile.default]
 provider = "anthropic"
-model    = "claude-3-5-sonnet-20241022"
+model    = "claude-sonnet-4-5"
 api_key_env = "ANTHROPIC_API_KEY"
 
 [agent]
@@ -128,7 +128,7 @@ clido doctor
 ✓ Binary: clido 0.1.0
 ✓ API key: ANTHROPIC_API_KEY is set
 ✓ Config: ~/.config/clido/config.toml
-✓ Default profile: default → anthropic / claude-3-5-sonnet-20241022
+✓ Default profile: default → anthropic / claude-sonnet-4-5
 ✓ Session dir: ~/.local/share/clido/sessions
 ✓ Bash: /bin/bash
 ✓ All checks passed.
@@ -175,7 +175,7 @@ $EDITOR ~/.config/clido/config.toml
 All config values can be overridden at runtime:
 
 ```bash
-CLIDO_MODEL=claude-3-haiku-20240307 clido "quick question"
+CLIDO_MODEL=claude-haiku-4-5 clido "quick question"
 CLIDO_PROVIDER=openrouter clido run "summarise this file" < README.md
 ```
 

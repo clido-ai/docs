@@ -45,7 +45,7 @@ clido --output-format json "count lines in src/main.rs"
   "num_turns": 1,
   "duration_ms": 2100,
   "exit_status": "success",
-  "model": "claude-3-5-sonnet-20241022",
+  "model": "claude-sonnet-4-5",
   "provider": "anthropic"
 }
 ```
@@ -158,7 +158,7 @@ The final event, emitted after the agent finishes.
   "total_cost_usd": 0.0009,
   "num_turns": 1,
   "duration_ms": 2100,
-  "model": "claude-3-5-sonnet-20241022",
+  "model": "claude-sonnet-4-5",
   "provider": "anthropic"
 }
 ```

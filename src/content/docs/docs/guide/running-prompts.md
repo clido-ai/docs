@@ -161,7 +161,7 @@ clido --permission-mode plan "review this codebase and suggest improvements"
 
 ```bash
 # Use a specific model for this invocation
-clido --model claude-3-haiku-20240307 "quick question: what is 17 * 23?"
+clido --model claude-haiku-4-5 "quick question: what is 17 * 23?"
 
 # Use a different provider
 clido --provider openrouter --model anthropic/claude-3-5-sonnet "refactor this"

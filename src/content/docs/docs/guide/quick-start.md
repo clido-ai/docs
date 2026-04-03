@@ -44,7 +44,7 @@ Welcome to clido!
 ? Enter your ANTHROPIC_API_KEY:
   sk-ant-...
 
-? Default model: (claude-3-5-sonnet-20241022)
+? Default model: (claude-sonnet-4-5)
 
 ✓ Config written to ~/.config/clido/config.toml
 ```
@@ -125,7 +125,7 @@ clido doctor
 ✓ Binary: clido 0.1.0
 ✓ API key: ANTHROPIC_API_KEY is set
 ✓ Config: ~/.config/clido/config.toml
-✓ Default profile: default → anthropic / claude-3-5-sonnet-20241022
+✓ Default profile: default → anthropic / claude-sonnet-4-5
 ✓ Session dir: ~/.local/share/clido/sessions
 ✓ Bash: /bin/bash
 ✓ All checks passed.

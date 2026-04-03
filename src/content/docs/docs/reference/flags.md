@@ -46,7 +46,7 @@ Flags can also be set via environment variables — see the `Env` column.
 Override the model name for this invocation. Does not modify `config.toml`.
 
 ```bash
-clido --model claude-3-haiku-20240307 "quick question"
+clido --model claude-haiku-4-5 "quick question"
 ```
 
 ### `--provider`
