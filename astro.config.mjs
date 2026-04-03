@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
 	site: 'https://clido.ai',
+	output: 'static',
 	integrations: [
 		starlight({
 			title: 'cli;do',
