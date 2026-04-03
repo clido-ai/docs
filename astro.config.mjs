@@ -9,10 +9,6 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'cli;do',
-			logo: {
-				src: './src/assets/logo.svg',
-				replacesTitle: false,
-			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/clido-ai/clido-cli' }],
 			favicon: '/favicon.ico',
 			head: [
