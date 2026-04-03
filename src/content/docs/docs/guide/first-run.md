@@ -114,7 +114,7 @@ max-turns      = 50
 max-budget-usd = 5.0
 ```
 
-See the [Configuration reference](/reference/config) for all available keys.
+See the [Configuration reference](/docs/reference/config) for all available keys.
 
 ## Verifying your setup
 
@@ -179,10 +179,10 @@ CLIDO_MODEL=claude-3-haiku-20240307 clido "quick question"
 CLIDO_PROVIDER=openrouter clido run "summarise this file" < README.md
 ```
 
-See [Environment Variables](/reference/env-vars) for the full list.
+See [Environment Variables](/docs/reference/env-vars) for the full list.
 
 ## Next steps
 
-- [Quick Start](/guide/quick-start) — run your first prompt
-- [Configuration](/guide/configuration) — full guide to config.toml and profiles
-- [Providers & Models](/guide/providers) — provider-specific options
+- [Quick Start](/docs/guide/quick-start) — run your first prompt
+- [Configuration](/docs/guide/configuration) — full guide to config.toml and profiles
+- [Providers & Models](/docs/guide/providers) — provider-specific options

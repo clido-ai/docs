@@ -91,7 +91,7 @@ clido --output-format stream-json "count lines in main.rs"
 {"type":"result","exit_status":"success","total_cost_usd":0.0009,"num_turns":1,"duration_ms":2100}
 ```
 
-See [Output Formats](/reference/output-formats) for the full schema of each format.
+See [Output Formats](/docs/reference/output-formats) for the full schema of each format.
 
 ## Quiet mode
 
@@ -213,4 +213,4 @@ fi
 | `--continue` | Resume newest session |
 | `--resume ID` | Resume session by ID prefix |
 
-See [All Flags](/reference/flags) for the complete reference.
+See [All Flags](/docs/reference/flags) for the complete reference.

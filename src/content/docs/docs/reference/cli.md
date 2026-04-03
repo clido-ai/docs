@@ -220,7 +220,7 @@ clido audit --json
 | `--since <date>` | Filter by start date (ISO 8601) |
 | `--json` | Output as newline-delimited JSON |
 
-See [Audit Log](/guide/audit) for full documentation.
+See [Audit Log](/docs/guide/audit) for full documentation.
 
 ---
 

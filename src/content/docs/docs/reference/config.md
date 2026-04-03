@@ -6,7 +6,7 @@ title: "config.toml Reference"
 
 Full reference for all configuration keys in `config.toml`.
 
-See [Configuration guide](/guide/configuration) for a conceptual overview and instructions on changing config values.
+See [Configuration guide](/docs/guide/configuration) for a conceptual overview and instructions on changing config values.
 
 ## File location
 
@@ -272,4 +272,4 @@ Values are resolved in this order (later values override earlier ones):
 4. Environment variables
 5. Command-line flags
 
-See [Environment Variables](/reference/env-vars) for the full variable list.
+See [Environment Variables](/docs/reference/env-vars) for the full variable list.

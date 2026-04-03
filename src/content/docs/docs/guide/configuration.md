@@ -140,7 +140,7 @@ All config values can be overridden at runtime via environment variables. They t
 | `OPENAI_API_KEY` | OpenAI-compatible credentials |
 | `OPENROUTER_API_KEY` | OpenRouter credentials |
 
-See [Environment Variables](/reference/env-vars) for the full list.
+See [Environment Variables](/docs/reference/env-vars) for the full list.
 
 ## Profiles
 
